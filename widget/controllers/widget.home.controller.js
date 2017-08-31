@@ -46,6 +46,8 @@
               }
               if (WidgetHome && WidgetHome.data && WidgetHome.data.content &&  WidgetHome.data.content.carouselImages && (WidgetHome.data.content.carouselImages.length>0)) {
                   var speed=WidgetHome.data.settings.speed*1000;
+                  for(var index in WidgetHome.data.content.carouselImages)
+                      WidgetHome.data.content.carouselImages[index].imageResizeType = "resize";
                   WidgetHome.view.loadItems(WidgetHome.data.content.carouselImages,null, WidgetHome.data.design.mode,speed);
                 //  WidgetHome.view._applySlider(speed);
               } else {
