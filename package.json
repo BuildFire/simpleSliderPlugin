@@ -2,6 +2,7 @@
   "name": "simpleSlider-plugin",
   "version": "0.0.0",
   "description": "\"simpleSlider-plugin\"",
+  "supportSite":"http://learn.appdocumentation.com/plugin-tutorials/image-gallery-and-info-slider-plugin-tutorial",
   "scripts": {
     "postinstall": "./node_modules/.bin/bower install",
     "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
