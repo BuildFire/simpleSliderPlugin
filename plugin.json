@@ -1,7 +1,7 @@
 {
   "author":"BuildFire"
 ,"pluginName":"Image Gallery and Info Slider",
-  "pluginDescription":"Use this plugin to showcase your images & photos in an image gallery or use it to provide slide-by-slide instructions."
+  "pluginDescription":"Create captivating image galleries and sliders to enhance user experience in your app."
 ,"supportEmail":"support@buildfire.com"
 ,"offlineModeEnabled": true
 ,"supportSite":"http://learn.appdocumentation.com/plugin-tutorials/image-gallery-and-info-slider-plugin-tutorial"
@@ -20,5 +20,31 @@
 ,"widget":{
 },
   "features" : [],
-  "languages" : ["en"]
+  "languages" : ["en"],
+  "media": [
+    {
+      "type": "image-resource",
+      "path": "1-Plugin.png"
+    },
+    {
+      "type": "image-resource",
+      "path": "2-benefits.png"
+    },
+    {
+      "type": "image-resource",
+      "path": "3-Use-Cases.png"
+    },
+    {
+      "type": "image-resource",
+      "path": "4-Content-Tab.png"
+    },
+    {
+      "type": "image-resource",
+      "path": "5-Analytics-Tab.png"
+    },
+    {
+      "type": "youtube-video",
+      "path": "https://www.youtube.com/watch?v=FHKdafKmIlQ"
+    }
+  ]
 }
