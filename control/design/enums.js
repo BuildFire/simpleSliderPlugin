@@ -7,7 +7,8 @@
         })
         .constant('CAROUSAL_TYPE', {
             WIDTH: 'WideScreen',
-            HEIGHT: 'MobileScreen'
+            HEIGHT: 'MobileScreen',
+            FIT: 'Fit'
         })
         .constant('CODES', {
             INSERTED: 'inserted',

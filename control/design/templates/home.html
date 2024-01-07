@@ -1,7 +1,14 @@
 
-<div class="item row clearfix" style="padding-bottom: 2%">
+<div class="item row clearfix margin-top-fifteen" style="padding-bottom: 2%">
     <div class="labels col-md-3 padding-right-zero pull-left">
-        <span>Carousal Type</span>
+        <span>Image Carousel Layout</span>
+        <span class="bf-tooltip margin-left-five">
+            <span class="tooltip-icon primary-bg">!</span>
+            <span class="tooltip-content tooltip-right">
+                <span class='tooltip-triangle'></span>
+                Choose how images display in the image carousel.
+            </span>
+        </span>
     </div>
     <div class="main pull-right col-md-9 padding-left-zero row">
         <div class="radio radio-primary radio-inline">
@@ -9,14 +16,51 @@
                    ng-model="DesignHome.data.design.mode"
                    ng-value="DesignHome.CAROUSAL_TYPE.WIDTH"
                    name="accountType" class="ng-pristine ng-untouched ng-valid" value="WideScreen">
-            <label for="channel">WideScreen</label>
+            <label for="channel">
+                Corp 
+                <span class="bf-tooltip margin-left-five">
+                    <span class="tooltip-icon primary-bg">!</span> 
+                    <span class="tooltip-content tooltip-bottom">
+                        <span class='tooltip-triangle'></span>
+                        <img class='margin-bottom-ten' src="../../resources/tooltip-crop.png" alt="Tooltip Crop">
+                        Crop the image to maintain a 16:9 ratio, regardless of the image orientation.
+                    </span>
+                </span>
+            </label>
         </div>
         <div class="radio radio-primary radio-inline">
             <input id="video" type="radio"
                    ng-model="DesignHome.data.design.mode"
                    ng-value="DesignHome.CAROUSAL_TYPE.HEIGHT"
                    name="accountType" class="ng-pristine ng-untouched ng-valid" value="MobileScreen">
-            <label for="video">FullScreen</label>
+            <label for="video">
+                Fill
+                <span class="bf-tooltip margin-left-five">
+                    <span class="tooltip-icon primary-bg">!</span>
+                    <span class="tooltip-content tooltip-bottom">
+                        <span class='tooltip-triangle'></span>
+                        <img class='margin-bottom-ten' src="../../resources/tooltip-fill.png" alt="Tooltip Fill">
+                        Scale the image to fill the container without any surrounding space.
+                    </span>
+                </span>
+            </label>
+        </div>
+        <div class="radio radio-primary radio-inline margin-right-ten">
+            <input id="fit" type="radio"
+                   ng-model="DesignHome.data.design.mode"
+                   ng-value="DesignHome.CAROUSAL_TYPE.FIT"
+                   name="accountType" class="ng-pristine ng-untouched ng-valid" value="Fit">
+            <label for="fit">
+                Fit
+                <span class="bf-tooltip margin-left-five">
+                    <span class="tooltip-icon primary-bg">!</span>
+                    <span class="tooltip-content tooltip-bottom">
+                        <span class='tooltip-triangle'></span>
+                        <img class='margin-bottom-ten' src="../../resources/tooltip-fit.png" alt="Tooltip Fit">
+                        Maintain the original image ratio while ensuring the entire image is visible.
+                    </span>
+                </span>
+            </label>
         </div>
     </div>
 </div>
