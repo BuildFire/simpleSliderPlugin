@@ -85,7 +85,7 @@
 
 
               if (WidgetHome.data.content.carouselImages || WidgetHome.data.design.mode) {
-                  if( WidgetHome.data.design.mode==CAROUSAL_TYPE.MOBILESCEEN)
+                  if( WidgetHome.data.design.mode==CAROUSAL_TYPE.MOBILESCEEN || WidgetHome.data.design.mode==CAROUSAL_TYPE.FIT)
                       WidgetHome.data.design.mode_gap=false;
                   else
                       WidgetHome.data.design.mode_gap=true;
@@ -128,7 +128,7 @@
 
                   WidgetHome.data.design.mode = event.data.design.mode;
 
-                  if( WidgetHome.data.design.mode==CAROUSAL_TYPE.MOBILESCEEN)
+                  if( WidgetHome.data.design.mode==CAROUSAL_TYPE.MOBILESCEEN || WidgetHome.data.design.mode==CAROUSAL_TYPE.FIT)
                       WidgetHome.data.design.mode_gap=false;
                   else
                       WidgetHome.data.design.mode_gap=true;

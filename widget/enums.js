@@ -7,7 +7,8 @@
     })
       .constant('CAROUSAL_TYPE', {
         WIDESCREEN: 'WideScreen',
-        MOBILESCEEN: 'MobileScreen'
+        MOBILESCEEN: 'MobileScreen',
+        FIT: 'Fit'
       })
     .constant('STATUS_CODE', {
       INSERTED: 'inserted',
