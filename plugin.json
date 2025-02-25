@@ -1,8 +1,9 @@
 {
   "author":"Buildfire"
 ,"pluginName":"Slider",
-  "pluginDescription":"Create captivating image galleries and info sliders to enhance user experience, making content more engaging and visually appealing in your app."
-,"supportEmail":"support@buildfire.com"
+  "pluginDescription":"Create captivating image galleries and info sliders to enhance user experience, making content more engaging and visually appealing in your app.",
+  "keywords":"Image Gallery and Info Slider",
+  "supportEmail":"support@buildfire.com"
 ,"offlineModeEnabled": true
 ,"supportSite":"http://learn.appdocumentation.com/plugin-tutorials/image-gallery-and-info-slider-plugin-tutorial"
 ,"pluginIcon": "icon.png"
